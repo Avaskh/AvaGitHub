@@ -1,0 +1,27 @@
+	<html>
+		<head>
+            <link rel="stylesheet" href="stoplight.css">
+			
+        </head>
+        <body>
+            <div class="row">
+                <div id="light-button-container">
+                    <button class="light-button" onclick="changelight('red')" >Red</button>
+                    <button class="light-button" onclick="changelight('yellow')">Yellow</button>
+                    <button class="light-button" onclick="changelight('green')">Green</button>
+                </div>  
+                    <div id="stoplight-box">
+                        <div class="circle" id="red-light"></div>
+                        <div class="circle" id="yellow-light"></div>
+                        <div class="circle" id="green-light"></div>
+                    </div>
+                <div id="light-timer-container">
+                    Red Time:<input id="red-time">
+                    Yellow Time:<input id="yellow-time">
+                    Green Time:<input id="green-time">
+                    <button class="light-button" onclick="start()">Start</button>
+                </div>
+            </div> 
+            <script src="Stoplight.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,37 @@
+body{
+    background-color: azure;
+}
+.row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.light-button{
+    display: block;
+    width: 100px;
+}
+
+#stoplight-box{
+  
+    width:200px;
+    height:600px;
+     background-color:rgb(197, 197, 197);
+     stroke-width:1;
+     border: 1px solid black;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  #light-timer-container > input {
+    display: block;
+    width: 200px;
+  }
